@@ -82,6 +82,14 @@ if (message.content === '!spam') {
 });
 
 
+client.on('ready', () => {//Toxic Codes
+    console.log(`Logged in as ${client.user.tag} !`);//Toxic Codes
+          client.user.setActivity("Flox ?  .",{type: 'WATCHING'});//Toxic Codes
+  //Toxic Codes
+  });//Toxic Codes
+
+
+
 
 
 client.login(process.env.TOKEN);// لا تغير فيها شيء
